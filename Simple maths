@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Easy Maths</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f7faff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        p, li {
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .fun-box {
+            background: #fff5cc;
+            padding: 15px;
+            margin: 20px;
+            border-left: 5px solid #ffaf00;
+        }
+        .btn-group {
+            margin: 20px;
+        }
+        .math-btn {
+            padding: 10px 15px;
+            background: #4a6cf7;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+            border-radius: 4px;
+        }
+        #secret-message {
+            display: none;
+            font-size: 18px;
+            margin: 20px;
+            color: #c70000;
+            font-weight: bold;
+        }
+        fieldset {
+            margin: 20px;
+            padding: 20px;
+            background: #eef2ff;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Easy Maths – Number System</h1>
+    <p>Your simple guide to learning mathematics</p>
+</header>
+
+
+<div>
+  <img src= https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oMdwOf2Nd0emmjPqfPaHicCEBj95vWHkgfgB1OSUig&s=10alt="Maths online">
+</div>
+
+  
+
+<p>
+This website is like a teacher for students learning mathematics. It helps by giving clues about fundamental concepts and review questions so students can test themselves and build strong foundations.
+</p>
+
+<h2>Contents of the Tutorial</h2>
+
+<ul>
+    <li>Chapter One – Number System
+        <ul>
+            <li>1.1 Introduction of Numbers</li>
+            <li>1.2 Natural Numbers</li>
+            <li>1.3 Whole Numbers</li>
+            <li>1.4 Rational Numbers</li>
+            <li>1.5 Basic Operations on Rational Numbers</li>
+        </ul>
+    </li>
+</ul>
+</nav>
+<ul>
+<li><a href=“Index.html”<h3>Chapter One – Number System</h3></li>
+<li><a href=“number.html”></a></li>
+
+<h4>1.1 Introduction of Numbers</h4>
+<div class="fun-box">
+Numbers are fundamental mathematical objects used for counting, measuring, and labeling.  
+Natural numbers are denoted by <strong>N</strong>.
+</div>
+
+<h5>Set Comparison:</h5>
+<p>
+All natural numbers are whole numbers, but 0 is a whole number and not a natural number.
+</p>
+
+<h5>Properties of Natural Numbers</h5>
+
+<p><strong>Closure under addition and multiplication:</strong><br>
+2 + 3 = 5<br>
+2 × 3 = 6
+</p>
+
+<p><strong>Not closed under subtraction:</strong><br>
+2 − 5 = −3
+</p>
+
+<p><strong>Not closed under division:</strong><br>
+5 ÷ 2 = 2.5
+</p>
+
+<p><strong>Examples:</strong><br>
+Counting: You have 3 potatoes.<br>
+Ordering: It is the 5th clever student.<br>
+Labeling: The jersey number is 10.
+</p>
+
+<h5>Review Questions</h5>
+<p>
+1. Which one of the following is a natural number?<br>
+A. −4 &nbsp; B. ⅚ &nbsp; C. 0 &nbsp; D. 3<br><br>
+
+2. Add 3 + 4. Answer: ____<br><br>
+
+3. Smallest natural number: ____<br><br>
+
+4. Largest natural number: ____<br><br>
+
+5. Multiply 5 × 6: ____<br>
+</p>
+
+<h4>1.3 Whole Numbers</h4>
+<p>
+Whole numbers are natural numbers plus zero.  
+Examples: 0, 1, 2, 3, …
+</p>
+
+<p><strong>Relationship to Other Sets:</strong><br>
+Natural Numbers: {1,2,3,...}<br>
+Integers: {...,−2,−1,0,1,2,...}<br>
+Smallest Whole Number: 0
+</p>
+
+<h5>Operations on Whole Numbers</h5>
+
+<p><strong>Addition:</strong><br>
+Closed under addition. Example: 5 + 3 = 8
+</p>
+
+<p><strong>Subtraction:</strong><br>
+Not closed. Example: 3 − 5 = −2
+</p>
+
+<p><strong>Multiplication:</strong><br>
+Closed under multiplication.
+</p>
+
+<p><strong>Division:</strong><br>
+Not closed. 7 ÷ 2 = 3.5
+</p>
+
+<h5>Review Questions</h5>
+<p>
+1. Define the set of whole numbers.<br><br>
+2. Difference between whole and natural numbers?<br><br>
+3. Is −5 whole? Why?<br><br>
+4. Identify property: 2 × (5 + 3) = (2 × 5) + (2 × 3)<br><br>
+5. Simplify: (a + 0) × (b × 1) × 0<br>
+</p>
+
+<h4>1.4 Rational Numbers</h4>
+<p>
+A rational number is written as p/q where q ≠ 0.
+</p>
+
+<h5>Examples:</h5>
+<p>
+5 = 5/1<br>
+−3 = −3/1<br>
+0 = 0/1
+</p>
+
+<h4>1.5 Basic Operations on Rational Numbers</h4>
+
+<h5>Addition and Subtraction</h5>
+<p>
+Compute: 6/1 + 3/2<br>
+Compute: −8/7 − 4/1
+</p>
+
+<h5>Multiplication and Division</h5>
+<p>
+Compute: (9/5) × (−10/3)<br>
+Compute: −10/9 ÷ 5/3
+</p>
+
+<h5>Order of Operations</h5>
+<p>
+Compute: 3/1 × (4/3 + 4/1)
+</p>
+
+<h5>Review Questions</h5>
+<p>
+1. Compute: −5/3 + 2/1<br>
+2. Find: 10/7 − (−5/1)<br>
+3. Compute: (−2) × 9/4<br>
+4. Compute: 14 1/7 ÷ 8 5/7<br>
+</p>
+
+<p>
+<a href="https://www.khanacademy.org">Link to Khan Academy</a>
+</p>
+
+<!-- INTERACTIVE BUTTONS ADDED FOR ASSIGNMENT -->
+<div class="btn-group">
+    <button class="math-btn" onclick="changeTheme()">Change Background</button>
+    <button class="math-btn" onclick="toggleMessage()">Show Math Tip</button>
+    <button class="math-btn" id="clickCounterBtn">Click Counter</button>
+</div>
+
+<p id="secret-message">⭐ Tip: Practicing 10 minutes a day improves your math skills a lot!</p>
+
+<!-- Contact Form -->
+<form>
+    <fieldset>
+
+        <div>
+            <label for="email">Email address</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div>
+            <label for="idea">Your idea</label><br>
+            <textarea id="idea" name="idea" rows="6" required minlength="10" maxlength="2000"></textarea>
+        </div>
+
+        <div>
+            <label>
+                <input type="checkbox" required>
+                I agree to be contacted about my submission.
+            </label>
+        </div>
+
+        <button type="submit">Send</button>
+
+    </fieldset>
+</form>
+
+<script>
+// FUNCTION 1 — Change Something
+function changeTheme() {
+    document.body.style.background = "#e6ffe6";
+}
+
+// FUNCTION 2 — React to User Action
+function toggleMessage() {
+    let msg = document.getElementById("secret-message");
+    msg.style.display = msg.style.display === "none" ? "block" : "none";
+}
+
+// FUNCTION 3 — Core JavaScript (event listener + DOM update)
+let count = 0;
+document.getElementById("clickCounterBtn").addEventListener("click", function () {
+    count++;
+    this.textContent = "Clicks: " + count;
+});
+</script>
+
+</body>
+</html>
