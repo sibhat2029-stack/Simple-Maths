@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Why This Website Is Useful</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f6ff;
+            margin: 0;
+        }
+        header {
+            background: #4a6cf7;
+            color: white;
+            padding: 20px;
+        }
+        p, li {
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .info-box {
+            background: #fff5cc;
+            border-left: 6px solid #ffaf00;
+            padding: 15px;
+            margin: 20px;
+        }
+        .btn {
+            margin: 20px;
+            padding: 10px 15px;
+            background: #4a6cf7;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #fact-box {
+            display: none;
+            color: #c70000;
+            margin: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>How This Website Helps You Learn Math</h1>
+    <p>Why this learning tool makes math easier and fun</p>
+</header>
+
+<p>
+This website is designed to help students build strong mathematical foundations.  
+It explains concepts simply, provides examples, and includes interactive tools that
+make learning more engaging.
+</p>
+
+<div class="info-box">
+    <h3>Main Benefits</h3>
+    <ul>
+        <li>Clear and simple explanations</li>
+        <li>Practice questions for each topic</li>
+        <li>Interactive buttons that make learning fun</li>
+        <li>Step-by-step logical presentation</li>
+        <li>Convenient for self-study</li>
+    </ul>
+</div>
+
+<h2>Why Students Find This Website Useful</h2>
+
+<p>
+Mathematics becomes easier when ideas are broken down into small parts.  
+This website helps by:
+</p>
+
+<ul>
+    <li>Giving easy definitions before examples</li>
+    <li>Showing visual hints and friendly explanations</li>
+    <li>Adding interactive elements to keep you active</li>
+    <li>Allowing you to test your understanding quickly</li>
+</ul>
+
+<hr>
+
+<h3>Interactive Tools on This Page</h3>
+
+<button class="btn" onclick="toggleFact()">Show Random Math Fact</button>
+<button class="btn" onclick="changeColor()">Change Text Color</button>
+<button class="btn" id="darkBtn">Toggle Dark Mode</button>
+
+<p id="fact-box"></p>
+
+<script>
+// JS 1 — Show a random math fact
+function toggleFact() {
+    const facts = [
+        "Zero is the only number that cannot be represented in Roman numerals.",
+        "A 'jiffy' is an actual unit of time — 1/100 of a second.",
+        "The number 2 is the only even prime number.",
+        "The word 'hundred' comes from an old Norse word meaning 120, not 100."
+    ];
+    const randomFact = facts[Math.floor(Math.random() * facts.length)];
+    const box = document.getElementById("fact-box");
+
+    box.textContent = randomFact;
+    box.style.display = "block";
+}
+
+// JS 2 — Change all text color randomly
+function changeColor() {
+    const colors = ["#000000", "#003366", "#4a6cf7", "#008000", "#550055"];
+    document.body.style.color = colors[Math.floor(Math.random() * colors.length)];
+}
+
+// JS 3 — Toggle Dark Mode
+let dark = false;
+document.getElementById("darkBtn").addEventListener("click", function() {
+    dark = !dark;
+    document.body.style.background = dark ? "#1a1a1a" : "#f0f6ff";
+    document.body.style.color = dark ? "white" : "black";
+    this.textContent = dark ? "Light Mode" : "Dark Mode";
+});
+</script>
+
+</body>
+</html>
+
